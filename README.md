@@ -1,6 +1,9 @@
 # agrox
 a web enum python module
 
+### Install
+* pip install AGROX
+
 ### fuzzing Example 
 ```python
 from argox.argo import Argo
@@ -10,8 +13,6 @@ data = argo.fuzzer()
 print(data)
 
 ```
-### Install
-* pip install AGROX
 
 ### Dns Enum Example 
 ```python
