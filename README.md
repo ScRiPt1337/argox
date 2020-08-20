@@ -17,7 +17,7 @@ print(data)
 ```python
 from argox.argo import Argo
 
-argo = Argo(url)
+argo = Argo("https://github.com")
 print(argo.DnsEnum())
 ```
 
@@ -25,12 +25,11 @@ print(argo.DnsEnum())
 ```python
 from argox.argo import Argo
 
-def scan(host,url):
-    argo = Argo(url)
+def scan(host):
+    argo = Argo("https://github.com")
     return argo.scanport(host,debug=False)
 
 host = input("Enter host ip")
-url = input("Enter host url")
-print(scan(host,url))
+print(scan(host))
 
 ```
