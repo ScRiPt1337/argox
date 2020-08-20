@@ -10,6 +10,8 @@ data = argo.fuzzer()
 print(data)
 
 ```
+### Install
+* pip install AGROX
 
 ### Dns Enum Example 
 ```python
