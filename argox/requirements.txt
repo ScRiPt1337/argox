@@ -1,0 +1,7 @@
+aiohttp
+asyncio
+beautifulsoup4
+clint
+dnspython
+cprint
+wad
