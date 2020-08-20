@@ -25,11 +25,12 @@ print(argo.DnsEnum())
 ```python
 from argox.argo import Argo
 
-def scan(host):
+def scan(host,url):
     argo = Argo(url)
     return argo.scanport(host,debug=False)
 
 host = input("Enter host ip")
-print(scan(host))
+url = input("Enter host url")
+print(scan(host,url))
 
 ```
