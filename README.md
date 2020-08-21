@@ -1,5 +1,5 @@
 # agrox
-a web enum python module
+a Web Enumeration python module
 
 ### Install
 * pip install AGROX
